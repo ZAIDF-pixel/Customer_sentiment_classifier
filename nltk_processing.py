@@ -1,3 +1,5 @@
+import nltk
+nltk.download("stopwords", quiet=True)
 import re
 import nltk
 from nltk.corpus import stopwords
